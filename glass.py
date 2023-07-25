@@ -49,8 +49,8 @@ def prediction(model, ri, na, mg, al, si, k, ca, ba, fe):
 
 st.title("Glass Type Predictor")
 st.sidebar.title("Exploratory Data Analysis")
-st.subheader("Full Dataset")
-st.dataframe(glass_df)
+#st.subheader("Full Dataset")
+#st.dataframe(glass_df)
 
 st.sidebar.subheader("Scatter Plot")
 features_list = st.sidebar.multiselect("Select the x-axis values:", ('RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe'))
